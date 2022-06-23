@@ -1,9 +1,9 @@
 # # Activity 1
 
-# def add_up():    
+# def add_up():
 #     num1 = input("please input a number ")
 #     num2 = input("please input a second number ")
-#     if num1 and num2: 
+#     if num1 and num2:
 #         try:
 #             int(num1)
 #             int(num2)
@@ -16,8 +16,8 @@
 
 # add_up()
 
-# Activity 2
-# Using the IMDB Page as reference I will create 2 functions one that gives a summary of the movie and 1 that gives one of the quotes from the movie
+# # Activity 2
+# # Using the IMDB Page as reference I will create 2 functions one that gives a summary of the movie and 1 that gives one of the quotes from the movie
 
 # import random
 
@@ -43,7 +43,7 @@
 #             print(quote_array[random.randint(0, 8)])
 #         elif choice == "2":
 #             print(summary)
-#         elif choice == "quit":
+#         elif choice.lower() == "quit":
 #             cont = False
 #         else:
 #             print("Please pick either 1 for Quotes and Trivia or 2 for Summary or quit to quit")
